@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+#color {
+    width: 100px;
+    height: 100px;
+    background: #1B4370;
+    margin: 15px auto;
+}
+
+#panel {
+    width: 900px;
+    margin: auto;
+}
+
+.celda {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: gainsboro;
+    margin: 0;
+}
+
+.seleccionColor {
+    text-align: center;
+}

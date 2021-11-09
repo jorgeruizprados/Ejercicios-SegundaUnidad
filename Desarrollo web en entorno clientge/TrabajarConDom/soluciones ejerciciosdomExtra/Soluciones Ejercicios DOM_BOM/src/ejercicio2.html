@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>3 EN RAYA</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../style/ejercicio2.css" />
+    <script src="../scripts/ejercicio2.js"></script>
+</head>
+
+<body>
+    <div class="contenedorSecundario">
+        <input id="jugador1" type="text" value="jugador 1" placeholder="Jugador 1">
+        <input id="jugador2" type="text" value="jugador 2" placeholder="Jugador 2"> <br>
+        <button onclick="guardarJugadores();">Iniciar Partida</button>
+    </div>
+    <div id="contenedorPrincipal">
+        <table disabled>
+            <tr>
+                <td id="c0" class="celda" onclick="seleccionarCelda(0)"></td>
+                <td id="c1" class="celda" onclick="seleccionarCelda(1)"></td>
+                <td id="c2" class="celda" onclick="seleccionarCelda(2)"></td>
+            </tr>
+            <tr>
+                <td id="c3" class="celda" onclick="seleccionarCelda(3)"></td>
+                <td id="c4" class="celda" onclick="seleccionarCelda(4)"></td>
+                <td id="c5" class="celda" onclick="seleccionarCelda(5)"></td>
+            </tr>
+            <tr>
+                <td id="c6" class="celda" onclick="seleccionarCelda(6)"></td>
+                <td id="c7" class="celda" onclick="seleccionarCelda(7)"></td>
+                <td id="c8" class="celda" onclick="seleccionarCelda(8)"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="contenedorSecundario">
+        <!-- con javascript:location.reload() se recarga la página por
+        lo que se reiniciaría todo-->
+        <button onclick="javascript:location.reload();">Reiniciar</button>
+    </div>
+</body>
+
+</html>
